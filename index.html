@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+   <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+       <a href="#" class="flex items-center">
+           <img src="https://www.svgrepo.com/show/499962/music.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo">
+           <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Promatrix Solutions</span>
+       </a>
+       <div class="flex items-center lg:order-2">
+           <div class="hidden mt-2 mr-4 sm:inline-block">
+               <span></span>
+           </div>
+
+           <!--<a href="https://themesberg.com/product/tailwind-css/landing-page"
+               class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Download</a>
+           --<button data-collapse-toggle="mobile-menu-2" type="button"
+           class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+           aria-controls="mobile-menu-2" aria-expanded="true">
+           <span class="sr-only">Open main menu</span>
+           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                 clip-rule="evenodd"></path>
+           </svg>
+           <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                 d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                 clip-rule="evenodd"></path>
+           </svg>
+        </button>-->
+       </div>
+       <div class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+           <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+               <li>
+                   <a href="#"
+                       class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
+                       aria-current="page">Home</a>
+               </li>
+               <li>
+                   <a href="about.html"
+                       class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About</a>
+               </li>
+               <li>
+                   <a href="ser.html"
+                       class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+               </li>
+               <li>
+                   <a href="careers.html"
+                       class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Careers</a>
+               </li>
+               <li>
+                   <a href="team.html"
+                       class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Team</a>
+               </li>
+               <li>
+                  <a href="testimonial.html"
+                      class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Testimonials</a>
+              </li>
+               <li>
+                   <a href="con1.html"
+                       class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+               </li>
+           </ul>
+       </div>
+   </div>
+</nav>
+
+<script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+<body>
+    <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
+        <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
+          <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        </div>
+        <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
+          <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        </div>
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl lg:mx-0">
+            <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Transforming Ideas into Innovative Software Solutions
+
+            </h2>
+            <p class="mt-6 text-lg leading-8 text-gray-300">Innovation | Transparency | Agility </p>
+          </div>
+          <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+            <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+                  
+              <a href="#">Enterprise Application Development <span aria-hidden="true">&rarr;</span></a>
+              <a href="#">WEB & MOBILE DEVELOPMENT <span aria-hidden="true">&rarr;</span></a>
+              <a href="#">EMBEDDED SYSTEM & IOT <span aria-hidden="true">&rarr;</span></a>
+              <a href="#">QA & TESTING <span aria-hidden="true">&rarr;</span></a>
+            </div>
+            <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+              <div class="flex flex-col-reverse">
+                <dt class="text-base leading-7 text-gray-300">Offices worldwide</dt>
+                <dd class="text-2xl font-bold leading-9 tracking-tight text-white">12</dd>
+              </div>
+              <div class="flex flex-col-reverse">
+                <dt class="text-base leading-7 text-gray-300">Full-time colleagues</dt>
+                <dd class="text-2xl font-bold leading-9 tracking-tight text-white">300+</dd>
+              </div>
+              <div class="flex flex-col-reverse">
+                <dt class="text-base leading-7 text-gray-300">Hours per week</dt>
+                <dd class="text-2xl font-bold leading-9 tracking-tight text-white">40</dd>
+              </div>
+              <div class="flex flex-col-reverse">
+                <dt class="text-base leading-7 text-gray-300">Paid time off</dt>
+                <dd class="text-2xl font-bold leading-9 tracking-tight text-white">Unlimited</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+      
+</body>
+
+<!-- ====== Footer Section Start -->
+<!-- ====== Footer Section Start -->
+<footer class="px-3 pt-4 lg:px-9 border-t-2 bg-gray-50">
+   <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
+
+       <div class="sm:col-span-2">
+           <a href="#" class="inline-flex items-center">
+               <img src="https://mcqmate.com/public/images/logos/60x60.png" alt="logo" class="h-8 w-8">
+               <span class="ml-2 text-xl font-bold tracking-wide text-gray-800">Promatrix Solutions</span>
+           </a>
+           <div class="mt-6 lg:max-w-xl">
+               <p class="text-sm text-gray-800">
+                Promatrix Solutions Ltd is a premier software development firm established in 2012 in Slough, Royal County of Berkshire.
+                We specialize in delivering innovative and custom software solutions to businesses worldwide 
+                   </p>
+           </div>
+       </div>
+
+       <div class="flex flex-col gap-2 text-sm">
+           <p class="text-base font-bold tracking-wide text-gray-900">SERVICES</p>
+           
+
+
+
+
+           <a href="#">Embedded Systems & IoT</a>
+           <a href="#">Web & Mobile development</a>
+           <a href="#">QA & Testing</a>
+           <a href="#">Consulting & Services</a>
+          
+       </div>
+
+       <div>
+        <!--
+           <p class="text-base font-bold tracking-wide text-gray-900">COMPANY IS ALSO AVAILABLE ON</p>
+           <div class="flex items-center gap-1 px-2">
+               <a href="#" class="w-full min-w-xl">
+                   <img src="https://mcqmate.com/public/images/icons/playstore.svg" alt="Playstore Button"
+                       class="h-10">
+               </a>
+               <a class="w-full min-w-xl" href="https://www.youtube.com/channel/UCo8tEi6SrGFP8XG9O0ljFgA">
+                   <img src="https://mcqmate.com/public/images/icons/youtube.svg" alt="Youtube Button"
+                       class="h-28">
+               </a>
+           </div>-->
+           <p class="text-base font-bold tracking-wide text-gray-900">Contacts</p>
+           <div class="flex">
+               <p class="mr-1 text-gray-800">Email:</p>
+               <a href="#" title="send email">info@promatrixsolutions.co.uk</a>
+           </div>
+       </div>
+
+   </div>
+
+   <div class="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
+       <p class="text-sm text-gray-600">© 2012 PROMATRIX SOLUTIONS. All rights reserved.</p>
+       <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+         <!--  <li>
+               <a href="#"
+                   class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Privacy
+                   &amp; Cookies Policy
+               </a>
+           </li>
+           <li>
+               <a href="#"
+                   class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Disclaimer
+               </a>
+           </li>-->
+       </ul>
+   </div>
+
+</footer>
+</html>
